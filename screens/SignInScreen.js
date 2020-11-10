@@ -32,7 +32,6 @@ const SignInScreen = ({navigation}) => {
     });
 
     const { colors } = useTheme();
-
     const { signIn } = React.useContext(AuthContext);
 
     const textInputChange = (val) => {
@@ -119,7 +118,7 @@ const SignInScreen = ({navigation}) => {
             <Text style={styles.text_header}>Welcome!</Text>
         </View>
         <Animatable.View 
-            animation="fadeInUpBig"
+            animation="bounceInRight"
             style={[styles.footer, {
                 backgroundColor: colors.background
             }]}
