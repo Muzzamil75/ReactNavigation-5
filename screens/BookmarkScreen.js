@@ -6,8 +6,9 @@ const BookmarkScreen = () => {
       <View style={styles.container}>
         <Text>Bookmark Screen here2</Text>
 
+
         <Button
-          title="Click Here"
+          title="Click Hersse"
           onPress={() => alert('Button Clicked!')}
         />
       </View>
